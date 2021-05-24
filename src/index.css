@@ -40,3 +40,21 @@ ul {
 body {
   font-family: Arial, sans-serif;
 }
+
+@-webkit-keyframs fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframs fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
