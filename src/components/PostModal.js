@@ -25,7 +25,6 @@ const PostModal = (props) => {
   };
 
   const postArticle = (e) => {
-      
     e.preventDefault();
     if (e.target !== e.currentTarget) {
       return;
@@ -73,7 +72,7 @@ const PostModal = (props) => {
                   value={editorText}
                   onChange={(e) => setEditorText(e.target.value)}
                   placeholder="What do you want to talk about?"
-                  autoFocus={true}
+                  onFocus={true}
                 />
                 {assetArea === "image" ? (
                   <UploadImage>

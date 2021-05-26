@@ -1,4 +1,3 @@
-import { useLayoutEffect } from "react";
 import styled from "styled-components";
 import Leftside from "./Leftside";
 import Main from "./Main";
